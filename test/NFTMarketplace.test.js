@@ -44,8 +44,8 @@ describe("NFTMarketplace", function () {
     //  });
 
     it("Should check NFT collection Name and Symbol", async function () {
-      const nftName = "DApp NFT"
-      const nftSymbol = "DAPP"
+      const nftName = "Kakashi"
+      const nftSymbol = "KKSH"
       expect(await nft.name()).to.equal(nftName);
       expect(await nft.symbol()).to.equal(nftSymbol);
     });
